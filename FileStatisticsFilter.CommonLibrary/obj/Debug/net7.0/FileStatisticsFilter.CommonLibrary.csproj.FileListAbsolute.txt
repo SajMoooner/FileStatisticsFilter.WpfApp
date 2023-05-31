@@ -1,0 +1,12 @@
+C:\Users\ochot\OneDrive\Počítač\Škola\Letny\johnSharp\FileStatisticsFilter.WpfApp\FileStatisticsFilter.CommonLibrary\bin\Debug\net7.0\FileStatisticsFilter.CommonLibrary.deps.json
+C:\Users\ochot\OneDrive\Počítač\Škola\Letny\johnSharp\FileStatisticsFilter.WpfApp\FileStatisticsFilter.CommonLibrary\bin\Debug\net7.0\FileStatisticsFilter.CommonLibrary.dll
+C:\Users\ochot\OneDrive\Počítač\Škola\Letny\johnSharp\FileStatisticsFilter.WpfApp\FileStatisticsFilter.CommonLibrary\bin\Debug\net7.0\FileStatisticsFilter.CommonLibrary.pdb
+C:\Users\ochot\OneDrive\Počítač\Škola\Letny\johnSharp\FileStatisticsFilter.WpfApp\FileStatisticsFilter.CommonLibrary\obj\Debug\net7.0\FileStatisticsFilter.CommonLibrary.csproj.AssemblyReference.cache
+C:\Users\ochot\OneDrive\Počítač\Škola\Letny\johnSharp\FileStatisticsFilter.WpfApp\FileStatisticsFilter.CommonLibrary\obj\Debug\net7.0\FileStatisticsFilter.CommonLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ochot\OneDrive\Počítač\Škola\Letny\johnSharp\FileStatisticsFilter.WpfApp\FileStatisticsFilter.CommonLibrary\obj\Debug\net7.0\FileStatisticsFilter.CommonLibrary.AssemblyInfoInputs.cache
+C:\Users\ochot\OneDrive\Počítač\Škola\Letny\johnSharp\FileStatisticsFilter.WpfApp\FileStatisticsFilter.CommonLibrary\obj\Debug\net7.0\FileStatisticsFilter.CommonLibrary.AssemblyInfo.cs
+C:\Users\ochot\OneDrive\Počítač\Škola\Letny\johnSharp\FileStatisticsFilter.WpfApp\FileStatisticsFilter.CommonLibrary\obj\Debug\net7.0\FileStatisticsFilter.CommonLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ochot\OneDrive\Počítač\Škola\Letny\johnSharp\FileStatisticsFilter.WpfApp\FileStatisticsFilter.CommonLibrary\obj\Debug\net7.0\FileStatisticsFilter.CommonLibrary.dll
+C:\Users\ochot\OneDrive\Počítač\Škola\Letny\johnSharp\FileStatisticsFilter.WpfApp\FileStatisticsFilter.CommonLibrary\obj\Debug\net7.0\refint\FileStatisticsFilter.CommonLibrary.dll
+C:\Users\ochot\OneDrive\Počítač\Škola\Letny\johnSharp\FileStatisticsFilter.WpfApp\FileStatisticsFilter.CommonLibrary\obj\Debug\net7.0\FileStatisticsFilter.CommonLibrary.pdb
+C:\Users\ochot\OneDrive\Počítač\Škola\Letny\johnSharp\FileStatisticsFilter.WpfApp\FileStatisticsFilter.CommonLibrary\obj\Debug\net7.0\ref\FileStatisticsFilter.CommonLibrary.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "FileStatisticsFilter.SearchConsoleApp/1.0.0": {
+        "dependencies": {
+          "FileStatisticsFilter.CommonLibrary": "1.0.0"
+        },
+        "runtime": {
+          "FileStatisticsFilter.SearchConsoleApp.dll": {}
+        }
+      },
+      "FileStatisticsFilter.CommonLibrary/1.0.0": {
+        "runtime": {
+          "FileStatisticsFilter.CommonLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FileStatisticsFilter.SearchConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FileStatisticsFilter.CommonLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

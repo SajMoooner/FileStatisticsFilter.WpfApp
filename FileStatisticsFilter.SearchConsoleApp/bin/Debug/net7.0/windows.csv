@@ -1,0 +1,11 @@
+Directory;FileNameWithoutExtension;Extension;Size;CreatedTime;ModifiedTime;IsReadOnly
+C:\Documents;Document1;doc;4096;2022-09-15T10:30:00Z;2023-04-02T15:45:21Z;False
+D:\Photos;Photo1;jpg;8192;2023-01-10T14:12:37Z;2023-05-20T08:55:10Z;False
+C:\Documents;Document2;pdf;16384;2021-12-05T18:20:45Z;2023-03-18T12:10:33Z;True
+D:\Music;Song1;mp3;32768;2023-03-01T22:08:19Z;2023-05-30T09:25:05Z;False
+C:\Documents;Document3;docx;65536;2022-11-18T10:05:56Z;2023-05-25T17:30:40Z;False
+D:\Videos;Video1;mp4;131072;2023-02-14T16:40:02Z;2023-05-27T20:15:55Z;False
+C:\Photos;Photo2;png;262144;2023-04-20T11:50:30Z;2023-05-29T13:05:16Z;False
+D:\Documents;Document4;xlsx;524288;2022-08-27T07:15:10Z;2023-05-28T10:45:42Z;False
+C:\Music;Song2;flac;1048576;2023-02-05T13:25:27Z;2023-05-26T16:20:30Z;False
+D:\Documents;Document5;txt;2097152;2023-03-10T09:55:55Z;2023-05-23T19:00:00Z;False

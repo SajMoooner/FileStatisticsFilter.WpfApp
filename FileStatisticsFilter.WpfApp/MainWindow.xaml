@@ -1,0 +1,79 @@
+﻿<Window x:Class="FileStatisticsFilter.WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileStatisticsFilter.WpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.7*"/>
+            <ColumnDefinition Width="0.3*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- First half -->
+        <Grid Grid.Column="0">
+
+            <!-- Rozdel na polovicu -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <!-- 20% of the space -->
+                <RowDefinition Height="8*"/>
+                <!-- 80% of the space -->
+            </Grid.RowDefinitions>
+
+
+            <!-- First row (20% of the space) -->
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button Content="Open File Explorer" Click="OpenFileExplorer_Click" Margin="0,23,0,29" HorizontalAlignment="Center" Width="120"/>
+
+                <ComboBox Grid.Column="2"  Margin="51,23,103,0" Height="35" VerticalAlignment="Top" x:Name="DirectoryComboBox" SelectionChanged="DirectoryComboBox_SelectionChanged" Grid.ColumnSpan="2">
+                </ComboBox>
+
+
+
+            </Grid>
+
+            <!-- Second row (80% of the space) -->
+            <StackPanel Grid.Row="1" >
+                <ListView Name="FilesListView" Height="347" Width="560">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="File name" DisplayMemberBinding="{Binding FileName}" />
+                            <GridViewColumn Header="Directory" DisplayMemberBinding="{Binding Directory}" />
+                            <GridViewColumn Header="Size" DisplayMemberBinding="{Binding Size}" />
+                            <GridViewColumn Header="Created time" DisplayMemberBinding="{Binding CreatedTime}" />
+                            <GridViewColumn Header="Modified time" DisplayMemberBinding="{Binding ModifiedTime}" />
+                            <GridViewColumn Header="Read only" DisplayMemberBinding="{Binding isReadOnly}" />
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+
+                <!-- Controls for the second row go here -->
+            </StackPanel>
+        </Grid>
+
+        <!-- Second half -->
+        <GroupBox Grid.Column="1" Grid.Row="0" Header="Statistics">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Label x:Name="FilesCount" Grid.Row="0" Content="Files :  " />
+                <Label x:Name="Directories" Grid.Row="1" Content="Directories : " />
+                <Label x:Name="Suma" Grid.Row="2" Content="Sum of size : " />
+            </Grid>
+        </GroupBox>
+
+    </Grid>
+</Window>
